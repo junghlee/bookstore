@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'rails-html-sanitizer', '1.0.1'
 gem 'sdoc',                 '0.4.0', group: :doc
+gem 'bcrypt-ruby', :require => 'bcrypt'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
