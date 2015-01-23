@@ -3,7 +3,6 @@ class SessionsController < ApplicationController
   end
 
   def create
-    pp 'blah', User.first
     user = User.authenticate(params[:email], params[:password])
 
     if user
