@@ -1,4 +1,4 @@
-app = angular
+var app = angular
   .module('AngularRails', [
     'ngRoute',
     'templates'

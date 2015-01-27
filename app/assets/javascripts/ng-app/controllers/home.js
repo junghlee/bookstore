@@ -1,5 +1,5 @@
-GP_App = angular.module('AngularRails');
+var gp_app = angular.module('AngularRails');
 
-GP_App.controller('HomeCtrl', function ($scope) {
+gp_app.controller('HomeCtrl', function ($scope) {
     $scope.things = ['Angular', 'Rails 4.1', 'Working', 'Together!!'];
   });
