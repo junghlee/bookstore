@@ -1,13 +1,15 @@
-var app = angular
-  .module('AngularRails', [
+var app = angular.module('GpApps', [
+    'templates',
     'ngRoute',
-    'templates'
+    'controllers'
   ]);
 
-app.config(function ($routeProvider, $locationProvider) {
+app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'home.html',
-        controller: 'HomeCtrl'
+        controller: 'HomeController'
       });
-  });
+  }]
+);
+
