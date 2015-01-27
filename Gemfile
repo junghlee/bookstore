@@ -13,7 +13,7 @@ gem 'bcrypt',                   '3.1.9'
 gem 'angularjs-rails',          '1.3.9'
 gem 'angular-rails-templates',  '0.1.3'
 gem 'bower-rails',              '0.9.2'
-gem 'sass-rails-source-maps',   '0.0.4'
+# gem 'sass-rails-source-maps',   '0.0.4'
 
 group :development, :test do
   gem 'sqlite3',                '1.3.9'

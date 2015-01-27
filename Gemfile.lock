@@ -139,10 +139,6 @@ GEM
       rspec-mocks (~> 2.13.0)
     rubyzip (1.1.6)
     sass (3.4.10)
-    sass-rails-source-maps (0.0.4)
-      rails
-      sass (>= 3.3.0.rc.3)
-      sprockets (>= 2.3.0)
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
@@ -204,7 +200,6 @@ DEPENDENCIES
   rails-html-sanitizer (= 1.0.1)
   rails_12factor (= 0.0.2)
   rspec-rails (= 2.13.2)
-  sass-rails-source-maps (= 0.0.4)
   sdoc (= 0.4.0)
   selenium-webdriver (= 2.44.0)
   spring (= 1.1.3)
