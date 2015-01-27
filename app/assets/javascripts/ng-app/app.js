@@ -1,8 +1,10 @@
-angular
+app = angular
   .module('AngularRails', [
     'ngRoute',
     'templates'
-  ]).config(function ($routeProvider, $locationProvider) {
+  ]);
+
+app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'home.html',
