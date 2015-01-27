@@ -20,12 +20,14 @@ group :development, :test do
   gem 'byebug',                 '3.4.0'
   gem 'web-console',            '2.0.0.beta3'
   gem 'spring',                 '1.1.3'
-  gem 'rspec-rails',            '2.13.2'
-  gem 'factory_girl_rails',     '4.2.1'
-  gem 'capybara',               '2.4.4'
+  gem 'rspec-rails',            '3.1.0'
+  gem 'factory_girl_rails'
+  gem 'capybara'
   gem 'database_cleaner',       '1.4.0'
   gem 'selenium-webdriver',     '2.44.0'
+  gem 'spring-commands-rspec'
 end
+
 
 group :production do
   gem 'pg',                     '0.17.1'
