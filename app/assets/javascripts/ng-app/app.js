@@ -8,5 +8,4 @@ angular
         templateUrl: 'home.html',
         controller: 'HomeCtrl'
       });
-    $locationProvider.html5Mode(true);
   });
