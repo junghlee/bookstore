@@ -1,6 +1,7 @@
 var app = angular.module('GpApps', [
     'templates',
     'ngRoute',
+    'ngResource',
     'controllers'
   ]);
 

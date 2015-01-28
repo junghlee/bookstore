@@ -1,6 +1,8 @@
 controllers = angular.module('controllers', []);
 
-controllers.controller('HomeController', ['$scope', function ($scope) {
-    $scope.things = ['Angular', 'Rails 4.1', 'Working', 'Together!!'];
-  }]
+controllers.controller('HomeController', ['$scope', '$routeParams', '$location', '$resource',
+    function ($scope, $routeParams, $location, $resource) {
+      var Books = $resource('/books');
+      $scope.books = Books.query();
+    }]
 );
