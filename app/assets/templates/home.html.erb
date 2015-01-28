@@ -1,0 +1,21 @@
+<h1>Gracepoint Austin Library</h1>
+<div class="row">
+  <div class="col-md-6">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author Last Name</th>
+        <th>Author First Name</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr ng-repeat="book in books">
+        <td>{{ book.title }} </td>
+        <td>{{ book.last_name }} </td>
+        <td>{{ book.first_name }} </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
